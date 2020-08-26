@@ -1,0 +1,161 @@
+@font-face {
+    font-family: MooMonkey;
+    src: url(../fonts/moonmonkey.ttf);
+}
+
+@font-face {
+    font-family: cind;
+    src: url(../fonts/CIND.otf);
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    color: #fdf800;
+    text-shadow: 0 0 10px #FF0000;
+    font-family: cind;
+}
+
+
+body.main{
+    background-color: 	#091833;
+}
+#header a.nav-link{
+    text-shadow: 0 0 10px #ea00d9;
+    color: #fdf800;
+    font-size:1.5em;
+}
+#header a.nav-link:hover{
+    text-shadow: 0 0 15px #FF0000;
+}
+
+.footerMain{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 		#1e0f1d;
+}
+
+div#header{
+    width:100%;
+    height:100px;
+    font-weight:bold;
+}
+
+div#header a.company{
+    color: #fdf800;
+    text-shadow: 0 0 10px #FF0000;
+    font-family: MooMonkey;
+}
+
+div#header a.company:hover{
+    text-decoration: none;
+    text-shadow: 0 0 15px #711c91;
+}
+
+div.game{
+    background-color: #091833;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #ea00d9;
+}
+div.game:hover{
+    box-shadow: 0 0 20px #FF0000;
+}
+
+div.content{
+    background: rgb(113,28,145);
+    background: linear-gradient(45deg, rgba(113,28,145,1) 0%, rgba(46,26,60,1) 45%, rgba(234,0,208,1) 100%);
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.games{
+    padding-bottom: 6rem;
+}
+p.consoleName{
+    color: #FF0000;
+}
+div.contentGame, div.contentCart, div.contentPayment{
+    padding-bottom: 5%; 
+    padding-right: 2rem; 
+    padding-left: 2rem;
+}
+
+div.mainGameDiv, .cartDiv, .paymentDiv{
+    background-color: #091833;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #ea00d9;
+    text-shadow: 0 0 0px #ea00d9;
+}
+span.gameAttribute, span.paymentAttribute{
+    color: #ea00d9;
+    text-shadow: 0 0 2px #7b1346;
+}
+.price{
+    color: #ea00d9;
+    text-shadow: 0 0 5px #711c91;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.error{
+    color:crimson; 
+}
+
+.info{
+    color:lime;
+}
+body#cart, body#gameBody, body#errorPage{
+    background: rgb(113,28,145);
+    background: linear-gradient(45deg, rgba(113,28,145,1) 0%, rgba(46,26,60,1) 45%, rgba(234,0,208,1) 100%);
+}
+
+body#game{
+    background: rgb(113,28,145);
+    background: linear-gradient(45deg, rgba(113,28,145,1) 0%, rgba(46,26,60,1) 45%, rgba(234,0,208,1) 100%);
+}
+
+table.table{
+    color:#fdf800;
+}
+
+.btnCustom{
+    background-color: #ea00d9;
+    color: #fdf800;
+}
+
+.btnCustom:hover{
+    background-color: #133e7c;
+    color: #fdf800;
+}
+.table-hover tbody tr:hover {
+    color: #fdf800;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.btnRadio{
+    background-color: #ea00d9;
+    color: #fdf800;
+}
+.btnRadio:hover{
+    color: #fdf800;
+}
+.active{
+    background-color: #711c91;
+    color: #fdf800;
+}
+table.table{
+    width:100%;
+    margin: 0 auto;
+}

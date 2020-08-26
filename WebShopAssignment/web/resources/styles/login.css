@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Marske;
+  src: url(../fonts/Marske.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Marske;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    display: flex;
+    color: #fdf800;
+    text-shadow: 0 0 10px #FF0000;
+    background: rgb(113,28,145);
+    background: linear-gradient(45deg, rgba(113,28,145,1) 0%, rgba(46,26,60,1) 45%, rgba(234,0,208,1) 100%);
+}
+.loginForm{
+    max-width: 480px; 
+}
+
+.registerForm{
+    max-width: 800px; 
+}
+
+.formArea {
+    padding: 20px 30px;
+    margin: auto;
+    min-height: 350px;
+    border: 0px solid #ccc;
+    overflow: hidden;
+    -moz-box-shadow: 0 0 10px #133e7c;
+    -webkit-box-shadow: 0 0 10px #133e7c;
+    box-shadow: 0 0 10px #133e7c;
+    border-radius: 5px;
+    background-color: #091833;
+     width: 100%;
+}
+
+
+.btnSubmit{
+    background-color: #133e7c;
+    color: #fdf800;
+    text-shadow: 0 0 5px #FF0000; 
+}
+
+.btnSubmit:hover{
+    background-color:#ea00d9;
+    color: #fdf800;
+}
+.linkButton{
+    color: #fdf800;
+    text-shadow: 0 0 5px #FF0000; 
+}
+
+.textInput{
+    font-family: serif;
+}
+
+.error{
+    color:red; 
+    text-shadow: 0 0 10px crimson;
+}
+
+.info{
+    color:green;
+    text-shadow: 0 0 10px lime;
+}
