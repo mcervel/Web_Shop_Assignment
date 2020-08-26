@@ -20,11 +20,19 @@ After initializing the database using the Database.sql file, an admin user will 
 The admin user can view purchase histories for all registered users.
 
 Planned features and improvements:
-•	Create a login history for the admin to have an overview of all logins from registered users. It will contain details such as: date and time of login, user IP, username.
-•	Finish the purchase methods so there is more detail to them. Implement fake paypal purchases using developer paypal sandbox accounts.
-•	Add filtering options for games.
-•	Add more categories with more details.
-•	Create a „Forbidden access“ page for when users try to access pages they do not have permission to enter.
-•	Fix the startup page so the project launches at home page.
-•	Clean up any unneccessary or bad code.
-•	Fix bugs and smaller issues.
+
+      •     Create a login history for the admin to have an overview of all logins from registered users. It will contain details such as: date and time of login, user IP, username.
+  
+      •     Finish the purchase methods so there is more detail to them. Implement fake paypal purchases using developer paypal sandbox accounts.
+  
+      •	Add filtering options for games.
+  
+      •	Add more categories with more details.
+  
+      •	Create a „Forbidden access“ page for when users try to access pages they do not have permission to enter.
+  
+      •	Fix the startup page so the project launches at home page.
+  
+      •	Clean up any unneccessary or bad code.
+  
+      •	Fix bugs and smaller issues.
