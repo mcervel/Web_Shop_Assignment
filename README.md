@@ -30,7 +30,7 @@ Planned features and improvements:
 - Clean up any unneccessary or bad code.
 - Fix bugs and smaller issues.
 
-Preview of the web shop:
+Preview of the web shop (as you can see it is heavily inspired by cyberpunk themes):
 
 ![Homescreen](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/home_screen.png)
 
