@@ -29,3 +29,15 @@ Planned features and improvements:
 - Fix the startup page so the project launches at home page.
 - Clean up any unneccessary or bad code.
 - Fix bugs and smaller issues.
+
+Preview of the web shop:
+
+![Homescreen](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/home_screen.png)
+
+![PS4Games](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/ps4_games.png)
+
+![Game](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/game_purchase.png)
+
+![Cart](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/cart.png)
+
+![Login](https://github.com/mcervel/Web_Shop_Assignment/blob/master/Images/login.png)
